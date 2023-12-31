@@ -1,5 +1,5 @@
 Tutorials for using napari-nucleome plugin
 =======================================
 
-
-https://docs.readthedocs.io/en/stable/tutorial/
+View the documentation at
+https://napari-nucleome-tutorial.readthedocs.io/en/latest/
