@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "napari-nucleome"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "Yang Zhang", email = "yangz6@andrew.cmu.edu"}]
 dynamic = ["version", "description"]
