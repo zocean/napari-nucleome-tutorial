@@ -6,29 +6,19 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use napari-nucleome, first clone the repo into a directory of your choice:
 
 .. code-block:: console
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Install napari
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Follow the instruction on the `napari installation page <https://napari.org/docs/dev/installation.html>`_ to install napari.
 
-.. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Quickstart
+----------
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+To start using napari-nucleome, you can run the following code in a Python environment:
